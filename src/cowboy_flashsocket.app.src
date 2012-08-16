@@ -1,0 +1,10 @@
+{application, cowboy_flashsocket, [
+	{description, "Cowboy Flash XML socket protocol"},
+	{vsn, git},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib
+	]},
+	{env, []}
+]}.
